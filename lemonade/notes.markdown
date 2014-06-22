@@ -2,7 +2,7 @@ Lemonade
 ========
 I was <b>extremely bored</b> today, and did not know what to do with my time, so I decided to <i>fork</i> my friend, Josh's project Lemonade and work on it. The original repository is <a href="https://github.com/trommel/lemonade">here</a>. Lemonade does its best to make you feel better by telling you to drink some lemonade,  ```<insidejoke>``` <b> At this point, feel free to go grab a cold or a warm beverage.</b> ```</insidejoke>```
 
-Demonstration Video: <b><a href="https://www.dropbox.com/s/78w1z7wpy5pt3rg/lemonade.mov">Click Here</a></b>
+Demonstration Video: <b><a href="#">LINK_BROKEN</a></b>
 
 Usage
 -----
