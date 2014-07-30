@@ -1,0 +1,248 @@
+      /*
+       * Apollo Computational Research Group
+       * Commits Made by Douglas Bumby.
+       *
+       * Permission is hereby granted, free of charge, to any person obtaining a copy
+       * of this software and associated documentation files (the "Software"), to deal
+       * in the Software without restriction, including without limitation the rights
+       * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+       * copies of the Software, and to permit persons to whom the Software is
+       * furnished to do so, subject to the following conditions:
+       *
+       * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+       * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+       * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+       * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+       * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+       * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+       * THE SOFTWARE.
+       *
+       * File: Stylesheet.css
+       * Version: 2.0
+       */
+
+
+      @import url(http://fonts.googleapis.com/css?family=Nunito:400,700,300);
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #CC0033;
+        font-family: Nunito, sans-serif;
+        margin-top: 150;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+      }
+
+      h1 {
+        margin-bottom: 10;
+      }
+
+      h2 {
+        font-size: 40px;
+      }
+
+      input[type=text] {
+        width: 90px;
+        outline: none;
+        font-family: inherit;
+        background: transparent;
+        color: white;
+        border: transparent;
+        font-size: inherit;
+      }
+
+      input[type=button] {
+      -webkit-appearance: none;
+        outline: none;
+        transition: .3s;
+        margin-top: 10px;
+        color: white;
+        background: transparent;
+        font-family: Nunito, sans-serif;
+        padding: 15px;
+        font-size: 15px;
+        border: 3px solid white;
+        border-radius: 3px;
+      }
+
+      input[type=button]:hover {
+        background: white;
+        color: #CC0033;
+      }
+
+      input[type=button]:active {
+        margin-top: 20px;
+        outline: none;
+      }
+
+      footer {
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+      }
+
+
+      /*
+       * Globals
+       */
+
+      /* Links */
+      a,
+      a:focus,
+      a:hover {
+        color: #fff;
+      }
+
+      /* Custom default button */
+      .btn-default,
+      .btn-default:hover,
+      .btn-default:focus {
+        color: #333;
+        text-shadow: none; /* Prevent inheritence from `body` */
+        background-color: #fff;
+        border: 1px solid #fff;
+      }
+
+
+      /*
+       * Base structure
+       */
+
+      html,
+      body {
+        height: 100%;
+        background-color: #CC0033;
+      }
+      body {
+        color: #fff;
+        text-align: center;
+      }
+
+      /* Extra markup and styles for table-esque vertical and horizontal centering */
+      .site-wrapper {
+        display: table;
+        width: 100%;
+        height: 100%; /* For at least Firefox */
+        min-height: 100%;
+      }
+      .site-wrapper-inner {
+        display: table-cell;
+        vertical-align: top;
+      }
+      .cover-container {
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      /* Padding for spacing */
+      .inner {
+        padding: 30px;
+      }
+
+
+      /*
+       * Header
+       */
+      .masthead-brand {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .masthead-nav > li {
+        display: inline-block;
+      }
+      .masthead-nav > li + li {
+        margin-left: 20px;
+      }
+      .masthead-nav > li > a {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff; /* IE8 proofing */
+        color: rgba(255,255,255,.75);
+        border-bottom: 2px solid transparent;
+      }
+      .masthead-nav > li > a:hover,
+      .masthead-nav > li > a:focus {
+        background-color: transparent;
+        border-bottom-color: rgba(255,255,255,.25);
+      }
+      .masthead-nav > .active > a,
+      .masthead-nav > .active > a:hover,
+      .masthead-nav > .active > a:focus {
+        color: #fff;
+        border-bottom-color: #fff;
+      }
+
+      @media (min-width: 768px) {
+        .masthead-brand {
+          float: left;
+        }
+        .masthead-nav {
+          float: right;
+        }
+      }
+
+
+      /*
+       * Cover
+       */
+
+      .cover {
+        padding: 0 20px;
+      }
+      .cover .btn-lg {
+        padding: 10px 20px;
+        font-weight: bold;
+      }
+
+
+      /*
+       * Footer
+       */
+
+      .mastfoot {
+        color: #999; /* IE8 proofing */
+        color: rgba(255,255,255,.5);
+      }
+
+
+      /*
+       * Affix and center
+       */
+
+      @media (min-width: 768px) {
+        /* Pull out the header and footer */
+        .masthead {
+          position: fixed;
+          top: 0;
+        }
+        .mastfoot {
+          position: fixed;
+          bottom: 0;
+        }
+        /* Start the vertical centering */
+        .site-wrapper-inner {
+          vertical-align: middle;
+        }
+        /* Handle the widths */
+        .masthead,
+        .mastfoot,
+        .cover-container {
+          width: 100%; /* Must be percentage or pixels for horizontal alignment */
+        }
+      }
+
+      @media (min-width: 992px) {
+        .masthead,
+        .mastfoot,
+        .cover-container {
+          width: 700px;
+        }
+      }
