@@ -1,0 +1,14 @@
+//
+//  ARAccountManagerVC.h
+//  Project One
+//
+//  Created by Douglas Bumby on 6-29-14.
+//  Copyright (c) 2014 Apollo Research. All rights reserved.
+//
+
+#import "ARBaseVC.h"
+
+@interface ARAccountManagerVC : ARBaseVC
+@property (strong, nonatomic) IBOutlet UITableView *accManageTbView;
+
+@end
