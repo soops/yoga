@@ -1,7 +1,5 @@
 # Yoga Script
 
-**This is such an old project, I'm just keeping it for keep sakes. I made it with somebody who was important to me at that time in my life.**
-
 YScript/YogaScript is a JS script that has been hooked up into a styled Html5 document that allows the world to record how many girls you see wearing yoga pants!
 
 <h3>Changelog</h3>
