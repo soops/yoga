@@ -1,5 +1,5 @@
 // Made for YogaScript by Douglas Bumby
-var count, yogaCount;
+var count;
 
 count = parseInt(localStorage.getItem("yogapants"))||0;
 function increment(n) {
