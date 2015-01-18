@@ -6,7 +6,7 @@ var yogaCount;
 count = 2;
 
 yogaCount = function() {
-  count = count++;
+  count = count + 1;
   document.getElementById("yoga-tally").innerHTML = count;
   localStorage.setItem("yogapantcount", count);
   return 0;
