@@ -7,3 +7,9 @@ function increment(n) {
   localStorage.setItem("yogapants", count);
   document.getElementById("yoga-tally").innerHTML = count;
 }
+
+function reset() {
+  count = 0;
+  localStorage.setItem("yogapants", count);
+  document.getElementById("yoga-tally").innerHTML = count;
+}
