@@ -1,12 +1,9 @@
 // Made for YogaScript by Douglas Bumby
+var count;
 
-var count, yogaCount;
-var count = parseInt(localStorage.getItem("yogapantcount"))||0;
-
-
-yogaCount = function() {
-  count = count + 1;
+count = parseInt(localStorage.getItem("yogapants"))||0;
+function increment(n) {
+  count += n;
+  localStorage.setItem("yogapants", count);
   document.getElementById("yoga-tally").innerHTML = count;
-  return 0;
-  localStorage.setItem("yogapantcount", count);
-};
+}
